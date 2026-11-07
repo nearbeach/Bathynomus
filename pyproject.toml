@@ -25,7 +25,7 @@ keywords = [
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: Apache License Version 2.0",
+  "License :: OSI Approved :: Apache Software License",
   "Operating System :: OS Independent",
 ]
 
@@ -46,3 +46,6 @@ Repository = "https://github.com/NearBeach/Bathynomus.git"
 
 [tool.django-stubs]
 django_settings_module = "local.settings"
+
+[tool.setuptools]
+packages = ["Bathynomus"]
