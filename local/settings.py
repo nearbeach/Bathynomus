@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Bathynomus.urls'
+ROOT_URLCONF = 'local.urls'
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Bathynomus.wsgi.application'
+WSGI_APPLICATION = 'local.wsgi.application'
 
 
 # Database
