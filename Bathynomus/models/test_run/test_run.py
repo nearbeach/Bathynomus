@@ -1,6 +1,7 @@
 from django.db import models
 
 from Bathynomus.models.abstraction.common_abstractions import CommonInfo
+from Bathynomus.models.product import Product
 import uuid
 
 
@@ -13,7 +14,7 @@ class TestRun(CommonInfo):
         editable=False,
     )
     project_id = models.ForeignKey(
-        "Project",
+        Product,
         on_delete=models.CASCADE,
     )
     title = models.CharField(max_length=255)

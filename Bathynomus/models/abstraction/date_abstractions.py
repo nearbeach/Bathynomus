@@ -4,7 +4,7 @@ from django.db import models
 
 # ABSTRACTED CLASS
 class DateTimeAbstraction(models.Model):
-    """Class containing start and end date fields for NearBeach's models"""
+    """Class containing start and end date fields for Bathynomus's models"""
     start_date = models.DateTimeField(
         null=True,
         blank=True,

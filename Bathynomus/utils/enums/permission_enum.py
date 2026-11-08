@@ -1,4 +1,4 @@
-"""Module providing permission enums for NearBeach."""
+"""Module providing permission enums for Bathynomus."""
 
 from django.db import models
 from django.utils.translation import gettext_lazy as _

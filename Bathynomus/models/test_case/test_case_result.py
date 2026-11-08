@@ -1,4 +1,5 @@
 from django.db import models
+from django.conf import settings
 
 from Bathynomus.models.abstraction.common_abstractions import CommonInfo
 from Bathynomus.utils.enums.status_enum import TestRunStatus
@@ -31,7 +32,7 @@ class TestCaseResult(CommonInfo):
         default="",
     )
     executed_by = models.ForeignKey(
-        "User",
+        settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
     )
     executed_at = models.DateTimeField(

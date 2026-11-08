@@ -1,4 +1,4 @@
-"""Module providing the Application views for NearBeach"""
+"""Module providing the Application views for Bathynomus"""
 
 from django.shortcuts import render
 from django.views import View

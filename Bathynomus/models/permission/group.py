@@ -1,4 +1,4 @@
-"""Module providing group tables for NearBeach"""
+"""Module providing group tables for Bathynomus"""
 
 from typing import Tuple
 

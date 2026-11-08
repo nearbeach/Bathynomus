@@ -2,7 +2,7 @@
 from django.db import models
 
 from Bathynomus.models.abstraction.common_abstractions import CommonInfo
-from Bathynomus.models.test_case.project import Project
+from Bathynomus.models.product import Product
 import uuid
 
 
@@ -15,7 +15,7 @@ class TestCase(CommonInfo):
         editable=False,
     )
     project_id = models.ForeignKey(
-        Project,
+        Product,
         on_delete=models.CASCADE,
     )
     folder_id = models.ForeignKey(

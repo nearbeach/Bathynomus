@@ -1,4 +1,4 @@
-"""Module providing abstracted class containing common fields for NearBeach's Models"""
+"""Module providing abstracted class containing common fields for Bathynomus's Models"""
 
 from django.db import models
 from django.conf import settings
@@ -6,7 +6,7 @@ from django.conf import settings
 
 # ABSTRACTED CLASS
 class CommonInfo(models.Model):
-    """Class containing common fields for NearBeach's Models"""
+    """Class containing common fields for Bathynomus's Models"""
 
     date_created = models.DateTimeField(auto_now_add=True)
     date_modified = models.DateTimeField(auto_now=True)

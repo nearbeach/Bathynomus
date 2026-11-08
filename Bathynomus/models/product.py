@@ -3,7 +3,7 @@ from Bathynomus.models.abstraction.common_abstractions import CommonInfo
 import uuid
 
 
-class Project(CommonInfo):
+class Product(CommonInfo):
     """Class containing fields for the Project model."""
 
     id = models.UUIDField(

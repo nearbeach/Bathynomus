@@ -1,4 +1,4 @@
-"""Model providing Permission Set tables for NearBeach."""
+"""Model providing Permission Set tables for Bathynomus."""
 
 from django.db import models
 
@@ -31,7 +31,7 @@ class PermissionSet(CommonInfo):
         default=0,
     )
     # REGULAR PERMISSIONS
-    project = models.IntegerField(
+    product = models.IntegerField(
         choices=PermissionLevel,
         default=0,
     )
